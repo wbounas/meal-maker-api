@@ -4,3 +4,5 @@
 # sends a GET request to the server for all /ingredients
 
 curl --include --request GET "http://localhost:4741/ingredients"
+
+echo

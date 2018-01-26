@@ -5,3 +5,5 @@
 # sends a DELETE request to the specific ingredient to delete at /ingredients/:id
 
 curl --include --request DELETE "http://localhost:4741/ingredients/${ID}"
+
+echo

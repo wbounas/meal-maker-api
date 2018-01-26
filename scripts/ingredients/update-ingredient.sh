@@ -14,3 +14,5 @@ curl --include --request PATCH "http://localhost:4741/ingredients/${ID}" \
       "future": "'"${FUTURE}"'"
     }
   }'
+
+echo
