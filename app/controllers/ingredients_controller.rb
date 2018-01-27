@@ -15,7 +15,7 @@ class IngredientsController < ProtectedController
 
   # POST /ingredients
   def create
-    @ingredient = Ingredient.new(ingredient_params)
+    @ingredient = current_user.ingredients.build(ingredient_params)
 
     if @ingredient.save
       render json: @ingredient, status: :created, location: @ingredient
@@ -42,7 +42,7 @@ class IngredientsController < ProtectedController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_ingredient
-    @ingredient = Ingredient.find(params[:id])
+    @ingredient = current_user.ingredients.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
