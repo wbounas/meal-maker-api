@@ -2,7 +2,7 @@
 
 # - PROTECTED -
 # EMAIL="wb" PASSWORD="wb1" sh ./scripts/auth/sign-in.sh
-# TOKEN="" NAME="Test Ingredient" UNIT="each-test" QUANTITY=12 NOTES="test-notes" FUTURE=false sh ./scripts/ingredients/create-ingredient.sh
+# TOKEN="" NAME="Test Ingredient" UNIT="each-test" QUANTITY=12 NOTES="test-notes" sh ./scripts/ingredients/create-ingredient.sh
 
 # - UNPROTECTED -
 # NAME="Test Ingredient" UNIT="each-test" QUANTITY=12 NOTES="test-notes" sh ./scripts/ingredients/create-ingredient.sh
