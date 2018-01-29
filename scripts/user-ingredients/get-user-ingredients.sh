@@ -2,10 +2,7 @@
 
 # - PROTECTED -
 # EMAIL="wb" PASSWORD="wb1" sh ./scripts/auth/sign-in.sh
-# TOKEN="" ID=1 ./scripts/ingredients/get-ingredients.sh
-
-# - UNPROTECTED -
-# sh ./scripts/ingredients/get-ingredients.sh
+# TOKEN="" ID=1 ./scripts/user-ingredients/get-user-ingredients.sh
 
 # sends a GET request to the server for all /ingredients with the user_id of 1
 
