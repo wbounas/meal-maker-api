@@ -3,9 +3,10 @@
 class IngredientsController < ProtectedController
   before_action :set_ingredient, only: %i[show update destroy]
 
-  # GET /ingredients
+  # GET /ingredients?user_id=CURRENT_USER
   def index
-    @ingredients = Ingredient.all
+    # @ingredients = Ingredient.all
+    @ingredients = current_user.ingredients.all
 
     render json: @ingredients
   end
