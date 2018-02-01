@@ -13,7 +13,7 @@ Deployed API:
 https://meal-maker-api.herokuapp.com/
 
 **Technologies Used:**
-Ruby on Rails, Ruby, PostgreSQL, Heroku
+Ruby on Rails, Ruby, PostgreSQL, Heroku, CURL
 
 ### **About**
 
