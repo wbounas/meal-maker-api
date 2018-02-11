@@ -2,5 +2,5 @@
 
 class Ingredient < ApplicationRecord
   belongs_to :user
-  validates :name, :unit, :quantity, :user, presence: true, on: :create
+  validates :name, :unit, :quantity, :user, presence: true
 end
